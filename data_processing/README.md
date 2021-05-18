@@ -39,4 +39,4 @@ node db.js
 
 ### Finished the steps follow the steps of execution of the REST API
 
-* [REST API](./API/README.md)
+* [REST API](./../API/README.md)
