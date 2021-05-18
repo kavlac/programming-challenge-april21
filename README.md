@@ -73,3 +73,16 @@ You must provide the following artifacts:
 
 ## REST API
 
+### In this step, a REST API was implemented that provides the following methods:
+
+- List films by year and genre: given a year and a genre, we want to know which films correspond to a given year and are of the given genre;
+- List the films with K classification: given a K number, we want to know the films with K classification in descending order.
+
+* [RESP API](API/README.md)
+
+
+## Web Application
+
+- In this step, a single-page application (SPA) was implemented
+
+* [App Vue](App-Vue/README.md)
