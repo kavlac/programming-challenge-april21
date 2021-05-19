@@ -42,6 +42,7 @@ node db.js
 * [REST API](./../API/README.md)
 
 ## Screenshots
+
 <h1 align='center'>
 	<img src="App1.png"/>
 </h1>
