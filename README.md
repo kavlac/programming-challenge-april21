@@ -50,3 +50,49 @@ You must provide the following artifacts:
 - Show us everything you know about best practices in Git;
 - Think carefully about your code quality, in terms of maintainability, readability, and simplicity;
 - Do not overengineer your solution.
+
+
+## Solution
+
+## Preparation step
+
+<b> Intall the following software:</b>
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- [Mysql](https://www.apachefriends.org/pt_br/download.html)
+
+
+## Data processing
+
+- In this step we treat the data from the ``movies.csv`` and ``ratings.csv`` files, so insert into database.
+
+- Open ``data_processing`` directory and follow the steps:
+
+* [Data Processing](data_processing/README.md)
+
+## REST API
+
+### In this step, a REST API was implemented that provides the following methods:
+
+- List films by year and genre: given a year and a genre, we want to know which films correspond to a given year and are of the given genre;
+- List the films with K classification: given a K number, we want to know the films with K classification in descending order.
+
+* [RESP API](API/README.md)
+
+
+## Web Application
+
+- In this step, a single-page application (SPA) was implemented
+
+* [App Vue](App-Vue/README.md)
+
+## Screenshots
+
+<h1 align='center'>
+	<img src="./App1.PNG"/>
+</h1>
+
+<h1 align='center'>
+	<img src="./App2.PNG"/>
+</h1>
