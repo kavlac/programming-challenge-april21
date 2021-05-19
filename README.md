@@ -86,3 +86,13 @@ You must provide the following artifacts:
 - In this step, a single-page application (SPA) was implemented
 
 * [App Vue](App-Vue/README.md)
+
+## Screenshots
+
+<h1 align='center'>
+	<img src="App1.png"/>
+</h1>
+
+<h1 align='center'>
+	<img src="App2.png"/>
+</h1>
