@@ -40,3 +40,12 @@ node db.js
 ### Finished the steps follow the steps of execution of the REST API
 
 * [REST API](./../API/README.md)
+
+## Screenshots
+<h1 align='center'>
+	<img src="App1.png"/>
+</h1>
+
+<h1 align='center'>
+	<img src="App2.png"/>
+</h1>
