@@ -4,6 +4,12 @@
 ```
 npm install
 ```
+### Open ``config.js`` file and change the fields related to your database access credentials:</b>
+
+- ``host``
+- ``user``
+- ``password``
+- ``database``
 
 ### Compiles and hot-reloads for development
 ```

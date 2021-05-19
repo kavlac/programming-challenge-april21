@@ -10,6 +10,10 @@ npm install
 npm run serve
 ```
 
+### the application can be listen on:
+
+- ``http://localhost:8080/``
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 

@@ -1,3 +1,9 @@
+/**
+  *  by : Marco Antonio Cavalcante
+  *  controller.js
+  *  
+  */
+
 const poolConnection = require('../DB/db');
 const helper = require('../../helper');
 const config = require('../../config')
@@ -6,7 +12,7 @@ const mensagemErroNoBanco = "Falha de conexão com o banco de dados.";
 
 
 module.exports = {
-
+    // list the films with K classification
     async findRatings(req, res){ 
         console.log("req:",req.query);
         let ratings = req.query.ratings;
@@ -47,7 +53,7 @@ module.exports = {
 
         
     },
-
+    // list films by year and genre
     async findMovies(req, res){
         console.log("req:",req.query);
         let year = req.query.year;

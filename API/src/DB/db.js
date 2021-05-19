@@ -1,3 +1,9 @@
+/**
+  *  by : Marco Antonio Cavalcante
+  *  index.js
+  *  
+  */
+
 const mysql = require('mysql');
 const { db } = require('../../config');
 
