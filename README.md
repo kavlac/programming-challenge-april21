@@ -90,9 +90,9 @@ You must provide the following artifacts:
 ## Screenshots
 
 <h1 align='center'>
-	<img src="App1.png"/>
+	<img src="./App1.PNG"/>
 </h1>
 
 <h1 align='center'>
-	<img src="App2.png"/>
+	<img src="./App2.PNG"/>
 </h1>
