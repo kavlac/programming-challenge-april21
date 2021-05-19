@@ -11,12 +11,6 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <!--botão de Chamada do Modal Cadastro -->
-                <!-- <button
-                  type="button"
-                  class="btn btn-primary"
-                  @click="$root.$emit('open-modal')"
-                >Cadastrar</button> -->
               </li>
             </ul>
           </div>

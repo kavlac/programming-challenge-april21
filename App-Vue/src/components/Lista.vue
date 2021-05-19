@@ -21,7 +21,7 @@
         </b-form-radio-group>
       </b-form-group>
     </div>
-    <!-- Campo Pesquisa Genero e Ano -->
+    <!-- Genrer and Year Search Field -->
     <div v-if="find == true" class="row mt-3 mb-3 justify-content-center">
       <div class="col-md-3 pr-0">
         <b-form-group
@@ -68,7 +68,7 @@
         </button>
       </div>
     </div>
-    <!-- Campo Pesquisa Classificacao -->
+    <!-- Ratings Search Field -->
     <div v-else class="row mt-3 mb-3 justify-content-center">
       <div class="col-md-6 pr-0">
         <b-form-group
@@ -112,17 +112,17 @@
     </div>
     </div>
       <div v-else>
-    <!-- Texto Cabeçalho -->
+    <!-- header -->
     <div class="row">
       <div class="col-12 mb-2 text-center">
         <h3 class="text-muted">Lista de Filmes</h3>
       </div>
     </div>
-    <!-- Tabela Genero e Ano -->
+    <!-- Genrer and Year Table -->
     <div v-if="find == true" id="myTable" class="row justify-content-center">
       <div class="col-12">
         <table class="table">
-          <!-- Cabeçalho -->
+          <!-- header -->
           <thead>
             <tr>
               <th>Id Filme</th>
@@ -141,11 +141,11 @@
         </table>
       </div>
     </div>
-     <!-- Tabela Classificacao -->
+     <!-- Ratings Table -->
     <div v-else id="myTable" class="row justify-content-center">
       <div class="col-12">
         <table class="table">
-          <!-- Cabeçalho -->
+          <!-- header -->
           <thead>
             <tr>
               <th>Id Filme</th>
