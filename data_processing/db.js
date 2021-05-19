@@ -1,12 +1,19 @@
+/**
+  *  by : Marco Antonio Cavalcante
+  *  db.js
+  *  
+  */
 
-const exporter = require('./csv-to-mysql');
 
-const db = { /* don't expose password or any sensitive info, done only for demo */
-      host: 'localhost',
-      user: 'root',
-      password: 'marco',
-      database: 'teste',
-    };
- 
+ const exporter = require('./csv-to-mysql');
+
+ // enter your database credentials.
+const db = { 
+     host: 'localhost',
+     user: 'root',
+     password: 'marco',
+     database: 'teste',
+   };
+
 
 exporter(db.host,db.database,db.user,db.password);
