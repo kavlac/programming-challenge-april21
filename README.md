@@ -15,7 +15,7 @@
 
 Before you start running commands, make sure that the **link.csv**, **movies.csv** and **ratings.csv** files are in the /backend/assets folder. You can download these files here: [**ml-latest**](https://files.grouplens.org/datasets/movielens/ml-latest.zip)
 
- See the installation tutorial on Youtube: **Click here**
+ See the installation tutorial on Youtube: [**Click here**](https://youtu.be/QcU0ABDR5kc)
 
 ### Back-end
 
