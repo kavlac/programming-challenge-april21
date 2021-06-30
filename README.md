@@ -1,3 +1,43 @@
+# Best Movies
+
+🎬 Best movies is a project that makes life easier for people in the search for new movies.
+
+## Technologies
+
+- Python 3
+- Pandas
+- Django-Rest-Framework
+- Angular
+
+## How to install
+
+⚠ Attention
+
+Before you start running commands, make sure that the **link.csv**, **movies.csv** and **ratings.csv** files are in the /backend/assets folder. You can download these files here: [**ml-latest**](https://files.grouplens.org/datasets/movielens/ml-latest.zip)
+
+ See the installation tutorial on Youtube: **Click here**
+
+### Back-end
+
+```jsx
+docker-compose up
+```
+
+### Front-end
+
+```jsx
+npm install -g @angular/cli
+```
+
+```jsx
+npm install
+```
+
+```jsx
+ng serve —open
+```
+
+___
 # Programming Challenge
 
 Congratulations on being selected to participate in our technical test. It consists of a programming challenge and it will address different skills. Read the instructions carefully and we wish you the best of luck.
