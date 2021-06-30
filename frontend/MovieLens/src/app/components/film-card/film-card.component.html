@@ -1,0 +1,16 @@
+
+<ol class="list-unstyled">
+  <li *ngFor="let cols of rows" class="row">
+    <div *ngFor="let movie of cols" class="col-6">
+      <mat-card class="card" (click)="viewDetail(movie)">
+        <mat-card-header>
+          <mat-card-title class="text-wrap">{{movie.film_id.title}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <mat-icon [ngStyle]="{'color':'#ee9b00'}">star_rate</mat-icon>
+          <strong>{{ movie.rating | number : '1.1-1' }}</strong>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </li>
+</ol>

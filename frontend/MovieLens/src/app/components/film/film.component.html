@@ -1,0 +1,12 @@
+<div class="content">
+
+  <app-film-form (messageEvent)="debounce.next($event)"></app-film-form>
+
+  <app-film-card [movies]="movies"></app-film-card>
+
+  <app-load-button
+    (click)="getNewPage()"
+    [hasMore]="hasMore">
+  </app-load-button>
+</div>
+

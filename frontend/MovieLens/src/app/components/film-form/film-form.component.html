@@ -1,0 +1,23 @@
+
+<div class="text-center">
+  <h1 class="title">
+    <a href="https://github.com/CostaMarcos/programming-challenge-april21" target="_blank" style="text-decoration: none;">
+      BEST MOVIES
+    </a>
+  </h1>
+
+  <mat-form-field appearance="outline" class="search-field">
+    <mat-label>Find your favorite movie</mat-label>
+    <input
+      matInput
+      placeholder="Title, genres..."
+      #search
+      autofocus
+      autocomplete="off"
+      (keyup)="filter(search.value)"
+      onfocus="this.value=''"
+      >
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</div>
+
