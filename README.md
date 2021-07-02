@@ -36,6 +36,24 @@ npm install
 ```jsx
 ng serve —open
 ```
+## About the solution
+
+To deal with the large amount of data Python is a good choice, easy to understand language with fast implementation, is made for processing large amounts of data.
+
+Together with Python to do this processing I used a data analysis library called Pandas, very famous in the Data Science world for its powerful functions to process thousands of simultaneous data files.
+
+Some Movie Lens files can have up to 25 million data, so I made this choice, when running python manage.py initialdata the python performs the reading and recording of data in the csv file in the database automatically, in the case of the Rating file the process is a little different since it is related to the score of the movie, then a grouping of data per movie is performed and an average is made and then the data is recorded in the database.
+
+### Routes
+- **/api/film/**
+Search by movie title, genre and year are enabled as well as registration, editing and removal.
+
+- **/api/film-link/**
+This route returns the number of imdb and tmdb that can be used to create a list of famous movie sites.
+The filter by imdb, tmdb, film id are enabled as well as the search by movie title and movie genre.
+
+- **/api/rating/**
+This route returns the movie score data and makes it possible to search for movies with a specific score.
 
 ___
 # Programming Challenge
