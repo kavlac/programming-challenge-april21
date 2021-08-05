@@ -1,0 +1,17 @@
+.card {
+  width: 15vw;
+  height: 13vh;
+
+  min-height: 150px;
+  min-width: 200px;
+
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-card:hover{
+  cursor: pointer;
+  background-color: rgba($color: #000000, $alpha: 0.1);
+}

@@ -1,0 +1,18 @@
+
+<div class="text-center">
+  <h1 mat-dialog-title>{{ data.film_id.title }}</h1>
+  <div mat-dialog-subtitle>
+    <strong>
+      Rating: {{ data.rating }}
+    </strong>
+  </div>
+  <div mat-dialog-content class="content">
+    {{ data.film_id.genres }}
+  </div>
+  <div mat-dialog-actions class="justify-content-center">
+    <a [href]=link target="_blank">
+      <button class="btn btn-primary text-center" cdkFocusInitial>See on TMDB</button>
+    </a>
+  </div>
+</div>
+
